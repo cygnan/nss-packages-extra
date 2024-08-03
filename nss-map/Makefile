@@ -37,5 +37,5 @@ define Package/nss-map/install
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/mapcalc $(1)/usr/sbin/
 endef
 
-# $(eval $(call BuildPackage,nss-map))
-$(eval $(call Package,nss-map))
+$(eval $(call BuildPackage,nss-map))
+# $(eval $(call Package,nss-map))
